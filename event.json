@@ -1,0 +1,110 @@
+{
+  "body": {
+    "app": {
+      "id": "5ebee0975ac5304b664a12fa"
+    },
+    "webhook": {
+      "id": "5f4eaef81e3dcc117c7ba48a",
+      "version": "v2"
+    },
+    "events": [
+      {
+        "id": "5f74a0d52b5315fc007e798a",
+        "createdAt": "2020-09-30T15:14:29.834Z",
+        "type": "conversation:message",
+        "payload": {
+          "conversation": {
+            "id": "d334730226b2baceb7b12f79",
+            "type": "personal"
+          },
+          "message": {
+            "id": "5f74c7d84a146f3abd72af1d",
+            "received": "2020-09-30T18:00:56.820Z",
+            "author": {
+              "userId": "26508c10541a4b0ff472e5e2",
+              "avatarUrl": "https://s3.amazonaws.com/avatar.jpg",
+              "displayName": "Steve Rogers",
+              "type": "user",
+              "user": {
+                "id": "26508c10541a4b0ff472e5e2",
+                "externalId": "912382197",
+                "profile": {
+                  "email": "gabriel.ilv@gmail.com"
+                }
+              }
+            },
+            "content": {
+              "type": "text",
+              "text": "hello"
+            },
+            "source": {
+              "integrationId": "5f29403ae0b039000d015552",
+              "originalMessageId": "374",
+              "originalMessageTimestamp": "2020-09-30T18:00:56.000Z",
+              "type": "telegram"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "resource": "/{proxy+}",
+  "path": "/path/to/resource",
+  "httpMethod": "POST",
+  "isBase64Encoded": false,
+  "queryStringParameters": {
+    "foo": "bar"
+  },
+  "pathParameters": {
+    "proxy": "/path/to/resource"
+  },
+  "stageVariables": {
+    "baz": "qux"
+  },
+  "headers": {
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+    "Accept-Encoding": "gzip, deflate, sdch",
+    "Accept-Language": "en-US,en;q=0.8",
+    "Cache-Control": "max-age=0",
+    "CloudFront-Forwarded-Proto": "https",
+    "CloudFront-Is-Desktop-Viewer": "true",
+    "CloudFront-Is-Mobile-Viewer": "false",
+    "CloudFront-Is-SmartTV-Viewer": "false",
+    "CloudFront-Is-Tablet-Viewer": "false",
+    "CloudFront-Viewer-Country": "US",
+    "Host": "1234567890.execute-api.us-east-1.amazonaws.com",
+    "Upgrade-Insecure-Requests": "1",
+    "User-Agent": "Custom User Agent String",
+    "Via": "1.1 08f323deadbeefa7af34d5feb414ce27.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Id": "cDehVQoZnx43VYQb9j2-nvCh-9z396Uhbp027Y2JvkCPNLmGJHqlaA==",
+    "X-Forwarded-For": "127.0.0.1, 127.0.0.2",
+    "X-Forwarded-Port": "443",
+    "X-Forwarded-Proto": "https"
+  },
+  "requestContext": {
+    "accountId": "123456789012",
+    "resourceId": "123456",
+    "stage": "prod",
+    "requestId": "c6af9ac6-7b61-11e6-9a41-93e8deadbeef",
+    "requestTime": "09/Apr/2015:12:34:56 +0000",
+    "requestTimeEpoch": 1428582896000,
+    "identity": {
+      "cognitoIdentityPoolId": null,
+      "accountId": null,
+      "cognitoIdentityId": null,
+      "caller": null,
+      "accessKey": null,
+      "sourceIp": "127.0.0.1",
+      "cognitoAuthenticationType": null,
+      "cognitoAuthenticationProvider": null,
+      "userArn": null,
+      "userAgent": "Custom User Agent String",
+      "user": null
+    },
+    "path": "/prod/path/to/resource",
+    "resourcePath": "/{proxy+}",
+    "httpMethod": "POST",
+    "apiId": "1234567890",
+    "protocol": "HTTP/1.1"
+  }
+}

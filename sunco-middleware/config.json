@@ -1,0 +1,15 @@
+{
+	"suncoKeyId": "your key id here",
+	"suncoSecret": "your secret here",
+    "appId": "your app id here",
+    "integrations":[
+        {
+            "integrationId": "5f29403ae0b039000d015552",
+            "brandId": 360004617032
+        },
+        {
+            "integrationId": "5f107251e798ef000cdbcfef",
+            "brandId": 360004243592
+        }
+    ]
+}
